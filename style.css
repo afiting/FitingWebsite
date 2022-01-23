@@ -1,8 +1,8 @@
 header {
-    background-image: url('images/Banner.png');
+    background-image: url("https://github.com/afiting/FitingWebsite/blob/master/Images/Banner.png");
 }
 body {
-    background-image: url("images/background2.png");
+    background-image: url("https://github.com/afiting/FitingWebsite/blob/master/Images/background2.png");
 }
 h1 {
     font-size: 200px;
