@@ -1,0 +1,10 @@
+header {
+    background-image: url('images/Banner.png');
+}
+body {
+    background-image: url("images/background2.png");
+}
+h1 {
+    font-size: 200px;
+    text-align: center;
+}
