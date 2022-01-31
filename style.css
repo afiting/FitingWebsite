@@ -1,10 +1,23 @@
 header {
-    background-image: url("https://github.com/afiting/FitingWebsite/blob/master/Images/Banner.png");
+    background-image: url("images/Banner.png");
 }
 body {
-    background-image: url("https://github.com/afiting/FitingWebsite/blob/master/Images/background2.png");
+    background-image: url("images/background2.png");
 }
 h1 {
     font-size: 200px;
     text-align: center;
+}
+.button-table {
+    background-color: rgb(121, 109, 107);
+    border: medium dashed black;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 35px;
+}
+button {
+    width: 200px;
+    height: 160px;
+    border: medium solid black;
+
 }
