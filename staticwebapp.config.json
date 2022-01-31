@@ -1,5 +1,5 @@
 {
     "globalHeaders": {
-        "content-security-policy": "default-src 'self' 'github.com'; img-src *"
+        "content-security-policy": "default-src 'self' github.com; img-src *"
     }
 }
