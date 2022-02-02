@@ -1,5 +1,0 @@
-{
-    "globalHeaders": {
-        "content-security-policy": "default-src 'self' github.com; img-src *"
-    }
-}
