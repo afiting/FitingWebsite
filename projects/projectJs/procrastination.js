@@ -17,12 +17,12 @@ function chooseReward() {
     return rewardArray[randomNumber];
 };
 
-let taskChoice = chooseTask();
-let timeChoice = chooseTime();
-let rewardChoice = chooseReward();
-
 function procrastinate() {
-    target.innerHTML = 'Go '+taskChoice+' for '+timeChoice+' then reward youself with a '+rewardChoice;
+    let taskChoice = chooseTask();
+    let timeChoice = chooseTime();
+    let rewardChoice = chooseReward();
+    let text = 'Go '+taskChoice+' for '+timeChoice+' then reward youself with a '+rewardChoice;
+    target.innerHTML = text;
 };
 
 goButton.addEventListener('onclick', procrastinate);
