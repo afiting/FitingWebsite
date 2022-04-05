@@ -2,8 +2,8 @@ let taskArray = ['do dishes', 'vacuum', 'read a book', 'clean the fridge',
 'clean the living room', 'clean the bathroom'];
 let timeArray = ['10 minutes', '15 minutes', '20 minutes', '25 minutes', '30 minutes']
 let rewardArray = ['nap', 'long walk', 'healthy snack', 'highfive', 'hot beverage']
-let goButton = document.getElementById('procButton')
-let target = document.getElementById('procTarget')
+let goButton = document.getElementById('procButton');
+let target = document.getElementById('procTarget');
 function chooseTask() {
     randomNumber = Math.floor(Math.random() * taskArray.length);
     return taskArray[randomNumber];
@@ -22,7 +22,7 @@ let timeChoice = chooseTime();
 let rewardChoice = chooseReward();
 
 function procrastinate() {
-    target.innerHTML = `Go ${taskChoice} for ${timeChoice} then reward youself with a ${rewardChoice}`
-}
+    target.innerHTML = 'Go ${taskChoice} for ${timeChoice} then reward youself with a ${rewardChoice}'
+};
 
-goButton.addEventListener('onclick', procrastinate);
+goButton.addEventListener('mousedown', procrastinate);
