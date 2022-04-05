@@ -15,7 +15,7 @@ h1 {
     border-collapse: separate;
     border-spacing: 35px;
 }
-button {
+.main-buttons {
     width: 200px;
     height: 160px;
     border: medium solid black;
