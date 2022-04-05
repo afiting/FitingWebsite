@@ -21,7 +21,7 @@ function procrastinate() {
     let taskChoice = chooseTask();
     let timeChoice = chooseTime();
     let rewardChoice = chooseReward();
-    let text = 'Go '+taskChoice+' for '+timeChoice+' then reward youself with a '+rewardChoice;
+    let text = `Go ${taskChoice} for ${timeChoice} then reward youself with a ${rewardChoice}`;
     target.innerHTML = text;
 };
 
