@@ -25,4 +25,4 @@ function procrastinate() {
     target.innerHTML = text;
 };
 
-goButton.addEventListener('onclick', procrastinate);
+goButton.addEventListener('mousedown', procrastinate);
