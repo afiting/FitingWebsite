@@ -22,8 +22,7 @@ let timeChoice = chooseTime();
 let rewardChoice = chooseReward();
 
 function procrastinate() {
-    let text = `Go ${taskChoice} for ${timeChoice} then reward youself with a ${rewardChoice}`;
-    target.innerHTML = text;
+    target.innerHTML = 'Go '+taskChoice+' for '+timeChoice+' then reward youself with a '+rewardChoice;
 };
 
-goButton.addEventListener('mousedown', procrastinate);
+goButton.addEventListener('onclick', procrastinate);
