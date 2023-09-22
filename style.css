@@ -5,7 +5,7 @@ body {
     background-image: url("./Images/background2.png");
 }
 h1 {
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
 }
 .button-table {
@@ -20,4 +20,12 @@ h1 {
     height: 160px;
     border: medium solid black;
 
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+    table-layout: auto;
+}
+td.projectJS {
+    border:1px solid black;
 }
