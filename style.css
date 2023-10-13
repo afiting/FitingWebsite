@@ -29,3 +29,8 @@ table.center {
 td.projectJS {
     border:1px solid black;
 }
+td.receipt {
+    width: 200px;
+    vertical-align: top;
+    border:1px solid black;
+}
