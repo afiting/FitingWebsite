@@ -24,6 +24,9 @@ h1 {
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0ef29ba99434ab18e6afd681e085e553180b4cf9
 table.center {
     margin-left: auto; 
     margin-right: auto;
@@ -32,6 +35,7 @@ table.center {
 td.projectJS {
     border:1px solid black;
 }
+<<<<<<< HEAD
 td.receipt {
     width: 200px;
     vertical-align: top;
@@ -110,3 +114,5 @@ td.receipt {
     }
   }
 >>>>>>> b50d7e9bf40d0bec6ecb2c84a9895eeb58948502
+=======
+>>>>>>> 0ef29ba99434ab18e6afd681e085e553180b4cf9
